@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- 1. HEAD -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Studywiz Quiz app</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- ICONS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+	<!-- 2.START PAGE & RULES-->
+	<div class="start_btn"><button>Begin Quiz</button></div>
+	<div class="info_box">
+		<div class="info-title"><span>Rules</span></div>
+		<div class="info-list">
+			<div class="info">1. You have <span>20 seconds</span> for each question.</div>
+			<div class="info">2. Answers selected, can't be undone.</div>
+			<div class="info">3. You'll be awarded points for each correct answers selected.</div>
+		</div>
+		<div class="buttons">
+			<button class="quit">Exit</button>
+			<button class="restart">Continue</button>
+		</div>
+	</div>
+	<!-- 3. QUIZ BOX -->
+	<div class="quiz_box">
+		<header>
+			<div class="title">Question</div>
+			<div class="timer">
+				<div class="time_left_txt">Time Left</div>
+				<div class="timer_sec">20</div>
+			</div>
+			<div class="time_line"></div>
+		</header>
+		<section>
+			<div class="que_text">
+				<!-- QUESTIONS -->
+			</div>
+			<div class="option_list">
+				<!-- ANSWERS -->
+			</div>
+		</section>
+		<!-- 4. FOOTER -->
+		<footer>
+			<div class="total_que">
+				<!-- QUESTIONS COUNT -->
+			</div>
+			<button class="next_btn">Next Question</button>
+		</footer>
+	</div>
+	<!-- 5. RESULT -->
+	<div class="result_box">
+		<div class="icon">
+			<i class="fas fa-crown"></i>
+		</div>
+		<div class="complete_text">That's the end of the quiz!</div>
+		<div class="score_text">
+			<!-- SCORE -->
+		</div>
+		<div class="buttons">
+			<button class="restart">Try Again</button>
+			<button class="quit">Quit</button>
+		</div>
+	</div>
+	<!-- 6. LINK TO JAVASCRIPTS -->
+	<script src="javascript/questions.js"></script>
+	<script src="javascript/quiz.js"></script>
+</body>
+</html>
