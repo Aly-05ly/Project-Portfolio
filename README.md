@@ -4,7 +4,7 @@
 - 💞️ I’m looking for job opportunities focusing on internship for November 2024
 - 📫 Email: amberly456loh@gmail.com 
 - 😄 Linkedin: https://www.linkedin.com/in/amberly-loh-binti-mohd-azlan-loh-a34ab7294
-- 😄 Portfolio website: https://amberly456loh.wixsite.com/amberlyloh-projects
+- 😄 Portfolio website: https://amberly456loh.wixsite.com/portfolioamberlyloh
 - ⚡ Fun fact: cgpa 3.9518
 
 <!---
